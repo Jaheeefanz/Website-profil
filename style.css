@@ -1,0 +1,73 @@
+body {
+    font-family: Times New Roman, Times New Roman;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d4afb9;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #d4afb9;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: pink;
+}
+
+footer {
+    background-color: pink;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    clear: both;
+}
